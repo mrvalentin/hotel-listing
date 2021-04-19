@@ -1,0 +1,52 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Johnrogershousemay2020.webp/300px-Johnrogershousemay2020.webp",
+        "isResponsive": false
+      },
+      "title": "Hotel name",
+      "rating": 2,
+      "description": "But Dubai Area",
+      "userRating": 9.2,
+      "reviewersNo": 70,
+      "amenities": [
+        {
+          "icon": "https://static.thenounproject.com/png/98173-200.png",
+          "description": "Room Only"
+        },
+        {
+          "icon": "https://static.thenounproject.com/png/97308-200.png",
+          "description": "Local charges Payable at hotel"
+        }
+      ],
+      "price": 815,
+      "pricePP": 204
+    },
+    {
+      "id": 2,
+      "photo":{
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Johnrogershousemay2020.webp/300px-Johnrogershousemay2020.webp.png",
+          "isResponsive": false
+      },
+      "title": "Grand Hyatt Dubai",
+      "rating": 5,
+      "description": "Some short descrption here",
+      "userRating": 2.2,
+      "reviewersNo": 10,
+      "amenities": [
+        {
+          "icon": "https://i.pinimg.com/736x/b3/cc/d5/b3ccd57b054a73af1a0d281265b54ec8.jpg",
+          "description": "Room Only"
+        },
+        {
+          "icon": "https://static.thenounproject.com/png/97308-200.png",
+          "description": "Local charges Payable at hotel"
+        }
+      ],
+      "price": 1815,
+      "pricePP": 224
+    }
+  ]
+}
