@@ -1,0 +1,63 @@
+.card-wrapper{
+    display: inline-block;
+    max-width:300px;
+    margin-right: 2em;
+    border: 1px solid black;
+    font-size: 0.8em;
+    & > div{
+        padding: 0 0.5em;
+        text-align: left;
+        .title{
+            font-size: 2em;
+            color: blue;
+        }
+        .description{
+            padding: 0.2em 0 1em 0;
+        }
+        p{
+            margin: 0;
+        }
+        h1{
+            font-size: 1.6em;
+            margin:0.4em 0;
+        }
+        hr{
+            border: 1px solid #b6b6b6;
+            background: #b6b6b6;
+            margin: 1em 0;
+        }
+        .amenity{
+            display: flex;
+            align-items:center;
+            max-height: 1.6em;
+            margin: 1em 0;
+            img{
+                width: 25px;
+                margin-right: 0.5em;
+            }
+            p{
+                font-size: 0.8em;
+            }
+        }
+    }
+    .card-footer{
+        display: flex;    
+        justify-content: space-between;
+        background-color: #80808026;
+        border-top: 1px dashed grey;
+        .hotel-price{
+            font-size: 2em;
+            color: #e07805;
+        }
+        .card-action{
+            margin: auto 0.5em;
+            height: 35px;
+            width: 80px;
+            background: #e07805;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    .score{
+        background-color: blue;
+        width: 2em;
+        height: 2em;
+        color: white;
+        margin-right: 1em;
+    }
+    .reviews{
+        color: blue;
+        margin-left: 1em;
+    }
+}
